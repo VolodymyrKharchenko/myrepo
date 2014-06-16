@@ -1,5 +1,8 @@
-<resources>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
 
     <string name="app_name">NewApp</string>
+    <string name="plusButton" android:id="@+id/plusButton">Добавить</string>
+    <string android:id="@+id/minusButton" android:layout_width="wrap_content" android:layout_height="wrap_content" name="minusButton">Отнять</string>
+<string android:layout_width="wrap_content" android:id="@+id/resultForMain" android:layout_height="wrap_content" name="resultForMain">Результат</string>
 
 </resources>
